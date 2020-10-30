@@ -6,12 +6,16 @@ import 'package:social_media/components/round_password_field.dart';
 import 'package:social_media/components/round_textfield.dart';
 import 'package:social_media/screens/Login/components/background.dart';
 import 'package:social_media/screens/SignUp/signup.dart';
+import 'package:social_media/model/user.dart';
 
 class Body extends StatelessWidget {
   const Body({
     Key key,
   }) : super(key: key);
 
+  User1 _user = User1();
+
+  
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;

@@ -30,6 +30,13 @@ class Body extends StatelessWidget {
             ),
             SvgPicture.asset("assets/icons/signup.svg",
                 height: size.height * 0.35),
+           SizedBox(
+              height: size.height * 0.03,
+            ),
+           RoundTextfield(
+              hintText: "Display Name",
+              onChanged: (value) {},
+            ),
             SizedBox(
               height: size.height * 0.03,
             ),
